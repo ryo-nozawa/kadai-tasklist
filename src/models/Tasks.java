@@ -31,7 +31,7 @@ public class Tasks {
     @Column(name = "created_at")
     private Timestamp created_at;
 
-    @Column(name = "updateed_at")
+    @Column(name = "updated_at")
     private Timestamp updated_at;
 
     public int getId() {
