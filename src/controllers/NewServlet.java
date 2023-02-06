@@ -37,24 +37,6 @@ public class NewServlet extends HttpServlet {
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasks/new.jsp");
         rd.forward(request, response);
 
-        /*
-        EntityManager em = DBUtil.utils.createEntityManager();
-
-        Tasks m = new Tasks();
-
-        String content = "meeting";
-        m.setContent(content);
-
-        Timestamp currentTime = new Timestamp(System.currentTimeMillis());
-        m.setCreated_at(currentTime);
-        m.setUpdated_at(currentTime);
-
-        em.getTransaction().begin();
-        em.persist(m);
-        em.getTransaction().commit();
-
-        */
-
     }
 
 }
